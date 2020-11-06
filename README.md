@@ -13,4 +13,8 @@ Afin de démarrer mon projet, j'ai tout bonnement lancé la commande suivante `n
 
 Pour lancer mon application rien de plus simple. Il suffit de lancer dans le terminal la commande suivante `npm start`. Elle permet de lancer le projet sur votre ordinateur notamment sur [http://localhost:3000](http://localhost:3000) votre naviguateur. Cette page est automatiquement rechargé à chaque modification effectué dans le code. On peut d'ailleurs y retrouver les erreurs de la console directement dans le terminal. 
 
+## La donnée
+
+J'ai fait le choix au départ de travailler sur des données en statique. Cela me permettre de mettre en place mon projet afin d'avoir un rendu plus concret. En revanche, la donnée sera ensuite mise en base avec l'aide de **MongoDB** et notamment **Atlas**. 
+
 
