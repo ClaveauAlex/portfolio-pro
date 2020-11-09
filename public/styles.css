@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+}
+
+/* Headings */
+
+/* Containers */
+
+/* Sections */
+
+/* Navigation Bar */
+
+/* Buttons */
+
+/* Title Section */
+
+/* Testimonial Section */
+
+/* Footer Section */
+
+/* Responsive part */
+
+/* @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  } */

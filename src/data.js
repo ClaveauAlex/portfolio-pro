@@ -77,3 +77,5 @@ const data = {
     email: "test.test@toto.com",
   },
 };
+
+export default data;
