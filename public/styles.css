@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 h1,
@@ -48,11 +49,25 @@ a{
   font-size: 1.4rem;
 }
 
+/* Logo */
+.logo{
+  width: 4%;
+}
+
+/* Couleur : #347C90 */
+
 /* Headings */
 
 /* Containers */
+.container-header{
+  padding: 7% 15%;
+}
 
 /* Sections */
+.colored-section {
+  background-color: #347C90;
+  color: #fff;
+}
 
 /* Navigation Bar */
 
