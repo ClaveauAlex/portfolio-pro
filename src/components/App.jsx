@@ -9,7 +9,7 @@ import Error404 from "./pages/Error404";
 
 function App() {
   return (
-    <section className="colored-section">
+    <section className="colored-section" id="header">
       <div className="container-fluid">
         <BrowserRouter>
             <NavBar />

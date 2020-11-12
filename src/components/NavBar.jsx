@@ -1,28 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BiMenuAltRight } from "react-icons/bi";
 
 function NavBar() {
   return (
-    <div>
+    <div className="navbar">
       <img
         src={process.env.PUBLIC_URL + "/logo_white.svg"}
         className="logo"
         alt="logo"
       />
-      <ul>
-        <li>
-          <Link to="/">Accueil</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projets</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
-          <Link to="/contact-me">Me contacter</Link>
-        </li>
-      </ul>
+      <button
+        className="button-toggle"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+      >
+        <BiMenuAltRight />
+      </button>
+      <nav id="navbarToggler">
+        <ul className="navbar-links">
+          <li>
+            <Link to="/" className="link">Accueil</Link>
+          </li>
+          <li>
+            <Link to="/projects" className="link">Projets</Link>
+          </li>
+          <li>
+            <Link to="/services" className="link">Services</Link>
+          </li>
+          <li>
+            <Link to="/contact-me" className="link">Me contacter</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }
