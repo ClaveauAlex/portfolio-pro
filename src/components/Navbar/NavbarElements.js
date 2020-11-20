@@ -34,20 +34,51 @@ export const NavLogo = styled(LinkR)`
   width: 40px;
 `;
 
-export const MobileIcon = styled.div`
+// export const MobileIcon = styled.div`
+//   display: none;
+
+//   @media screen and (max-width: 768px) {
+//     /* color: #fff; */
+//     color: #1a222b;
+//     cursor: pointer;
+//     display: block;
+//     padding: 16px;
+//     position: absolute;
+//     right: -32px;
+//     top: -13px;
+//     transition: all 0.2s ease-in-out;
+//     transform: translate(-100%, 60%);
+//   }
+// `;
+
+export const MenuBtn = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    /* color: #fff; */
-    color: #1A222B;
+    background: #fff;
+    border-radius: 4px;
+    /* color: #347c90; */
+    color: #1a222b;
+    border: 1px solid #1a222b;
     cursor: pointer;
     display: block;
-    padding: 16px;
+    font-size: 14px;
+    outline: none;
+    padding: 8px 16px;
     position: absolute;
-    right: -32px;
-    top: -13px;
+    right: -55px;
+    top: 5px;
+    text-decoration: none;
     transition: all 0.2s ease-in-out;
+    white-space: nowrap;
     transform: translate(-100%, 60%);
+
+    &:hover {
+      background: #e0e0e0;
+      /* color: #7d7d7d; */
+      color: #1a222b;
+      transition: all 0.2s ease-in-out;
+    }
   }
 `;
 

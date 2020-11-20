@@ -1,15 +1,17 @@
 import React from "react";
-import {FaBars} from "react-icons/fa";
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from "./NavbarElements";
+// import {FaBars} from "react-icons/fa";
+import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, MenuBtn} from "./NavbarElements";
+// MobileIcon
 
 function Navbar() {
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo to="/" />
-        <MobileIcon>
+        {/* <MobileIcon>
           <FaBars />
-        </MobileIcon>
+        </MobileIcon> */}
+        <MenuBtn>Menu</MenuBtn>
         <NavMenu>
           <NavItem>
             <NavLinks to="about">À propos</NavLinks>
