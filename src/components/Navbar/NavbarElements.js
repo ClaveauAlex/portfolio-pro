@@ -59,15 +59,17 @@ export const MenuBtn = styled.div`
     border-radius: 4px;
     /* color: #347c90; */
     color: #1a222b;
-    border: 1px solid #1a222b;
+    border: 2px solid #1a222b;
     cursor: pointer;
     display: block;
-    font-size: 14px;
+    font-size: 1rem;
     outline: none;
     padding: 8px 16px;
     position: absolute;
-    right: -55px;
-    top: 5px;
+    /* right: -55px; */
+    right: -3.4375rem;
+    /* top: 5px; */
+    top: 0.3125rem;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     white-space: nowrap;
@@ -134,9 +136,9 @@ export const NavBtnLink = styled(LinkR)`
   border-radius: 4px;
   /* color: #347c90; */
   color: #1a222b;
-  border: 1px solid #1a222b;
+  border: 2px solid #1a222b;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 1rem;
   outline: none;
   padding: 8px 16px;
   text-decoration: none;

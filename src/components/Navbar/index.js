@@ -3,7 +3,7 @@ import React from "react";
 import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, MenuBtn} from "./NavbarElements";
 // MobileIcon
 
-function Navbar() {
+function Navbar({ toggle }) {
   return (
     <Nav>
       <NavbarContainer>
@@ -11,7 +11,7 @@ function Navbar() {
         {/* <MobileIcon>
           <FaBars />
         </MobileIcon> */}
-        <MenuBtn>Menu</MenuBtn>
+        <MenuBtn onClick={toggle}>Menu</MenuBtn>
         <NavMenu>
           <NavItem>
             <NavLinks to="about">À propos</NavLinks>
