@@ -1,32 +1,23 @@
 import React from "react";
-import {
-  SidebarContainer,
-  MenuCloseBtn,
-  SidebarWrapper,
-  SidebarMenu,
-  SidebarLink,
-  SideBtnWrap,
-  SidebarRoute,
-} from "./SidebarElements";
+import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
 
 function Sidebar({isOpen, toggle}) {
   return (
-    <>
-      <SidebarContainer isOpen={isOpen}>
-        <MenuCloseBtn onClick={toggle}>Fermer</MenuCloseBtn>
-        <SidebarWrapper>
-          <SidebarMenu>
-            <SidebarLink to="about" onClick={toggle}>À propos</SidebarLink>
-            <SidebarLink to="skills" onClick={toggle}>Compétences</SidebarLink>
-            <SidebarLink to="trainings" onClick={toggle}>Expériences</SidebarLink>
-            <SidebarLink to="testimonials" onClick={toggle}>Avis</SidebarLink>
-          </SidebarMenu>
-          <SideBtnWrap>
-            <SidebarRoute to="/contact">Me contacter</SidebarRoute>
-          </SideBtnWrap>
-        </SidebarWrapper>
-      </SidebarContainer>
-    </>
+      <aside isOpen={isOpen}>
+        <div onClick={toggle}>Fermer</div>
+        <div>
+          <ul>
+            <LinkS to="about" onClick={toggle}>À propos</LinkS>
+            <LinkS to="skills" onClick={toggle}>Compétences</LinkS>
+            <LinkS to="trainings" onClick={toggle}>Expériences</LinkS>
+            <LinkS to="testimonials" onClick={toggle}>Avis</LinkS>
+          </ul>
+          <div>
+            <LinkR to="/contact">Me contacter</LinkR>
+          </div>
+        </div>
+      </aside>
   );
 }
 

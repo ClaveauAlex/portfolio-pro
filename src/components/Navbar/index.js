@@ -1,36 +1,36 @@
 import React from "react";
-// import {FaBars} from "react-icons/fa";
-import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, MenuBtn} from "./NavbarElements";
+import './styles.scss';
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 // MobileIcon
 
 function Navbar({ toggle }) {
   return (
-    <Nav>
-      <NavbarContainer>
-        <NavLogo to="/" />
-        {/* <MobileIcon>
-          <FaBars />
-        </MobileIcon> */}
-        <MenuBtn onClick={toggle}>Menu</MenuBtn>
-        <NavMenu>
-          <NavItem>
-            <NavLinks to="about">À propos</NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to="skills">Compétences</NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to="trainings">Expériences</NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks to="testimonials">Avis</NavLinks>
-          </NavItem>
-        </NavMenu>
-        <NavBtn>
-          <NavBtnLink to="/contact">Me contacter</NavBtnLink>
-        </NavBtn>
-      </NavbarContainer>
-    </Nav>
+    <nav className="nav">
+      <div className="navBarContainer">
+        <LinkR to="/" className="navLogo" />
+        <div className="menuBtn" onClick={toggle}>
+          Menu
+        </div>
+        <ul className="navMenu">
+          <li className="navItem">
+            <LinkS to="about" className="navLinks">À propos</LinkS>
+          </li>
+          <li className="navItem">
+            <LinkS to="skills" className="navLinks">Compétences</LinkS>
+          </li>
+          <li className="navItem">
+            <LinkS to="trainings" className="navLinks">Expériences</LinkS>
+          </li>
+          <li className="navItem">
+            <LinkS to="testimonials" className="navLinks">Avis</LinkS>
+          </li>
+        </ul>
+        <nav className="navBtn">
+          <LinkR to="/contact" className="navBtnLink">Me contacter</LinkR>
+        </nav>
+      </div>
+    </nav>
   );
 }
 
