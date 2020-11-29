@@ -2,14 +2,22 @@
 
 $font-familly: "Inter", sans-serif;
 
-* {
-  box-sizing: border-box;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: $font-familly;
-}
+// * {
+//   box-sizing: border-box;
+//   // height: 100vh;
+//   margin: 0;
+//   padding: 0;
+//   font-family: $font-familly;
+// }
 
 // html {
 //   font-size: 100%;
 // }
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: $font-familly;
+}
+
+
