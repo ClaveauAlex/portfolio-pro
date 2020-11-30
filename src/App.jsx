@@ -1,4 +1,6 @@
 import "./App.scss";
+import {FaFacebook, FaGithub, FaInstagram} from "react-icons/fa";
+import {FiMail} from "react-icons/fi";
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
               <a href="/">Expériences</a>
             </li>
             <li>
-              <a href="/">Avis</a>
+              <a href="/">Témoignages</a>
             </li>
           </ul>
           <button>Me contacter</button>
@@ -102,6 +104,17 @@ function App() {
           </div>
         </section>
       </div>
+      <div className="experiences-container">
+        <h2>Expériences</h2>
+        <div>
+          <h3>Développeur Front-end</h3>
+          {/* TODO: Faire la partie Expériences */}
+        </div>
+      </div>
+      <div className="testimonials-container">
+        <h2>Témoignages</h2>
+        {/* TODO: Faire la partie témoignage */}
+      </div>
       <div className="cta">
         <section>
           <h2>Vous souhaitez collaborer ?</h2>
@@ -109,15 +122,41 @@ function App() {
             Je suis toujours ouvert pour discuter des opportunités de projet ou
             de partenariat.
           </p>
-          <button>Commençons la conversation</button>
+          <button>Contactez moi</button>
         </section>
       </div>
-      <div className="experiences-container">
-        <h2>Expériences</h2>
-        <div>
-          <h3>Développeur Front-end</h3>
-          
-        </div>
+      <div className="footer-container">
+        <footer>
+          <img
+            src="./images/logo_white.svg"
+            alt="logo"
+            style={{ width: "40px" }}
+          ></img>
+          <p>Vivre, apprendre et progresser un jour à la fois.</p>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/alexandre-claveau/">
+                <FaFacebook/>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ClaveauAlex">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/alexandre_claveau.me/">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              {/* Redirection vers la page Contact */}
+              <a href="/">
+                <FiMail />
+              </a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </div>
   );
