@@ -13,20 +13,20 @@ Le design de mon portfolio est fait pour les devices suivant:
 
 ### Primary
 
-- Ref : #1DA0AD
+- Ref : ![#1DA0AD](https://via.placeholder.com/15/1DA0AD/000000?text=+) `#1DA0AD`
 
-- Dark BlueGreen: #2F4F52
-- Grayish Blue: #95C7C3
-
-### Neutral
-
-- Very Dark BlueGreen: #262D2E
-- Dark Grayish BlueGreen: #7E8687
-- Very Light Gray: #FAFAFA
+- Dark BlueGreen: ![#2F4F52](https://via.placeholder.com/15/2F4F52/000000?text=+) `#2F4F52`
+- Grayish Blue: ![#95C7C3](https://via.placeholder.com/15/95C7C3/000000?text=+) `#95C7C3`
 
 ### Neutral
 
-- Dark gray: #969696
+- Very Dark BlueGreen: ![#262D2E](https://via.placeholder.com/15/262D2E/000000?text=+) `#262D2E`
+- Dark Grayish BlueGreen: ![#7E8687](https://via.placeholder.com/15/7E8687/000000?text=+) `#7E8687`
+- Very Light Gray: ![#FAFAFA](https://via.placeholder.com/15/FAFAFA/000000?text=+) `#FAFAFA`
+
+### Neutral
+
+- Dark gray: ![#969696](https://via.placeholder.com/15/969696/000000?text=+) `#969696`
 
 ## Typography
 
