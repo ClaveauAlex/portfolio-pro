@@ -70,7 +70,7 @@ function App() {
               <img src="" alt="" />
               <h3>Web</h3>
               <p>Expertise front-end et back-end.</p>
-              <h5>Technologies :</h5>
+              <h4>Technologies :</h4>
               <ul>
                 <li>React</li>
                 <li>HTML5</li>
@@ -86,12 +86,12 @@ function App() {
               <img src="" alt="" />
               <h3>Design</h3>
               <p>Création de votre imagination.</p>
-              <h5>Services :</h5>
+              <h4>Services :</h4>
               <ul>
                 <li>Maquette Web</li>
                 <li>Logos</li>
               </ul>
-              <h5>Outils :</h5>
+              <h4>Outils :</h4>
               <ul>
                 <li>Figma</li>
                 <li>Affinity Designer</li>
