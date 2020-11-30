@@ -47,7 +47,8 @@ img {
   }
 
   ul {
-    display: flex;
+    // Mobile First display: flex;
+    display: none;
 
     a {
       display: block;
@@ -68,7 +69,26 @@ img {
     }
   }
 
-  button {
+  .contact {
+    // Mobile first
+    display: none;
+
+    background-color: transparent;
+    border: 1px solid $very-light-gray;
+    border-radius: 4px;
+    color: $very-light-gray;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0.5em 1em;
+
+    &:hover {
+      border: 1px solid $grayish-bluegreen;
+      color: $grayish-bluegreen;
+      transition: 0.2s all ease-in-out;
+    }
+  }
+
+  .menu{
     background-color: transparent;
     border: 1px solid $very-light-gray;
     border-radius: 4px;

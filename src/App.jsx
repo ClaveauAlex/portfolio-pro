@@ -8,11 +8,7 @@ function App() {
       <div className="navbar-container">
         <nav>
           <a href="/">
-            <img
-              src="./images/logo_white.svg"
-              alt="logo"
-              className="logo"
-            />
+            <img src="./images/logo_white.svg" alt="logo" className="logo" />
           </a>
           <ul>
             <li>
@@ -25,7 +21,8 @@ function App() {
               <a href="/">Expériences</a>
             </li>
           </ul>
-          <button>Me contacter</button>
+          <button className="contact">Me contacter</button>
+          <button className="menu">Menu</button>
         </nav>
       </div>
       <div className="hero">
