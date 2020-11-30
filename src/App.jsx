@@ -5,7 +5,7 @@ import { FiMail } from "react-icons/fi";
 function App() {
   return (
     <div>
-      <div className="nav-container">
+      <div className="navbar-container">
         <nav>
           <img
             src="./images/logo_black.svg"
