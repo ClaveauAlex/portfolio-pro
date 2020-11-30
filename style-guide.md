@@ -24,10 +24,6 @@ Le design de mon portfolio est fait pour les devices suivant:
 - Dark Grayish BlueGreen: ![#7E8687](https://via.placeholder.com/15/7E8687/000000?text=+) `#7E8687`
 - Very Light Gray: ![#FAFAFA](https://via.placeholder.com/15/FAFAFA/000000?text=+) `#FAFAFA`
 
-### Neutral
-
-- Dark gray: ![#969696](https://via.placeholder.com/15/969696/000000?text=+) `#969696`
-
 ## Typography
 
 ### Heading
