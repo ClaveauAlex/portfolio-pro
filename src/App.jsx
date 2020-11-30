@@ -7,11 +7,13 @@ function App() {
     <div>
       <div className="navbar-container">
         <nav>
-          <img
-            src="./images/logo_black.svg"
-            alt="logo"
-            style={{ width: "40px" }}
-          />
+          <a href="/">
+            <img
+              src="./images/logo_white.svg"
+              alt="logo"
+              className="logo"
+            />
+          </a>
           <ul>
             <li>
               <a href="/">À propos</a>
