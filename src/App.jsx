@@ -25,7 +25,7 @@ function App() {
           <button className="menu">Menu</button>
         </nav>
       </div>
-      <div className="hero">
+      <div className="hero-container">
         <header>
           <h1>Freelance Developer | React</h1>
           <p>Je code des interfaces et j'aime ce que je fais.</p>
@@ -35,29 +35,38 @@ function App() {
       <div className="about-container">
         <section>
           <h2>Qui suis-je ?</h2>
-          <p>Je m’appelle Alexandre Claveau et je suis domicilié en France.</p>
+          <p>
+            Je m’appelle <span className="bold">Alexandre Claveau</span> et je
+            suis domicilié en France.
+          </p>
           <p>
             Je suis passionné par le développement et le design. C’est pourquoi,
-            j’ai fait le choix de m’orienté dans la programmation Web.
-            J’affectionne tout particulièrement les belles interfaces afin de
-            rendre l’expérience plus agréable à l’utilisateur. Je suis très
-            intéressé dans les recherches d’UX/UI avant de concevoir un projet.
-            Ce qui est très important selon moi notamment dans l’application de
-            la méthode Agile.
+            j’ai fait le choix de m’orienté dans la{" "}
+            <span className="bold">programmation Web</span>. J’affectionne tout
+            particulièrement les belles interfaces afin de rendre l’expérience
+            plus agréable à l’utilisateur. Je suis très intéressé dans les
+            recherches d’<span className="bold">UX/UI</span> avant de concevoir
+            un projet. Ce qui est très important selon moi notamment dans
+            l’application de la <span className="bold">méthode Agile</span>.
           </p>
 
           <p>
-            Mes anciennes expériences professionnels m’ont permis de gagner en
-            rigueur mais aussi de faire preuve d’autonomie et de curiosité. La
-            communication est pour moi une notion très importante également dans
-            notre domaine d’activité.
+            Mes anciennes expériences professionnels m’ont permis de gagner en{" "}
+            <span className="bold">rigueur</span> mais aussi de faire preuve d’
+            <span className="bold">autonomie et de curiosité</span>. La{" "}
+            <span className="bold">communication</span> est pour moi une notion
+            très importante également dans notre domaine d’activité.
           </p>
 
           <p>
-            C’est pourquoi, je peux être un élément intéressant pour vous dans
-            la conception de votre projet. Aujourd’hui, je peux très bien
-            intégrer vos équipes (Startups, TPE, PME, Grande Entreprise) afin de
-            réaliser des projets ambitieux.
+            C’est pourquoi, je peux être un{" "}
+            <span className="bold">élément intéressant</span> pour vous dans la
+            conception de votre projet. Aujourd’hui, je peux très bien intégrer
+            vos équipes{" "}
+            <span className="bold">
+              (Startups, TPE, PME, Grande Entreprise)
+            </span>{" "}
+            afin de réaliser des projets ambitieux.
           </p>
         </section>
       </div>
