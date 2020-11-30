@@ -1,6 +1,6 @@
 import "./App.scss";
-import {FaFacebook, FaGithub, FaInstagram} from "react-icons/fa";
-import {FiMail} from "react-icons/fi";
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 function App() {
   return (
@@ -21,9 +21,6 @@ function App() {
             </li>
             <li>
               <a href="/">Expériences</a>
-            </li>
-            <li>
-              <a href="/">Témoignages</a>
             </li>
           </ul>
           <button>Me contacter</button>
@@ -107,13 +104,55 @@ function App() {
       <div className="experiences-container">
         <h2>Expériences</h2>
         <div>
-          <h3>Développeur Front-end</h3>
-          {/* TODO: Faire la partie Expériences */}
+          <img src="../images/olympp.svg" alt="Olympp" />
+          <h4>Développeur Front-end</h4>
+          <p>2019-2020</p>
+          <p>9 mois</p>
+          <p>Levallois-Perret (92)</p>
+          <p>
+            J'ai intégré une équipe au sein de la DSIRH de L’Oréal afin de
+            développer un outil interne. Celui-ci permet de gérer les
+            différentes formations proposées aux collaborateurs de chez L’Oréal.
+          </p>
         </div>
-      </div>
-      <div className="testimonials-container">
-        <h2>Témoignages</h2>
-        {/* TODO: Faire la partie témoignage */}
+        <div>
+          <img src="../images/it-ce.png" alt="ITCE" />
+          <h4>Alternant Développeur Front-end</h4>
+          <p>2018-2019</p>
+          <p>1 an</p>
+          <p>Rennes (35)</p>
+          <p>
+            Maintenance et évolutions sur un outil dédié aux professionnels du
+            groupe BPCE. De plus j'ai pu également développer un outil de
+            démonstration afin de promouvoir l'étendu de CE net aux différents
+            clients du groupe.
+          </p>
+        </div>
+        <div>
+          <img src="../images/arkea.svg" alt="ARKEA" />
+          <h4>Alternant Développeur Front-end</h4>
+          <p>2016-2017</p>
+          <p>1 an</p>
+          <p>Brest (29)</p>
+          <p>
+            J'ai réalisé le développement de solutions innovantes à usage
+            interne et à destination des clients finaux du Crédit Mutuel ARKEA
+            (des outils de monitoring, des outils utilisés par des
+            téléopérateurs, une solution de génération automatique de tests et
+            des nouvelles fonctionnalités à destination des clients finaux).
+          </p>
+        </div>
+        <div>
+          <img src="../images/arkea.svg" alt="ARKEA" />
+          <h4>Stage Développeur Service Banque à Distance</h4>
+          <p>2016</p>
+          <p>7 semaines</p>
+          <p>Brest (29)</p>
+          <p>
+            J’ai travaillé sur une application web de gestion des formulaires
+            remplis par des clients ou des prospects.
+          </p>
+        </div>
       </div>
       <div className="cta">
         <section>
@@ -136,7 +175,7 @@ function App() {
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/alexandre-claveau/">
-                <FaFacebook/>
+                <FaFacebook />
               </a>
             </li>
             <li>
@@ -156,6 +195,9 @@ function App() {
               </a>
             </li>
           </ul>
+          <p>
+            Alexandre Claveau © {new Date().getFullYear()} tous droits réservés.
+          </p>
         </footer>
       </div>
     </div>

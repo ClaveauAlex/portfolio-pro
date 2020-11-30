@@ -2,22 +2,22 @@
 
 $font-familly: "Inter", sans-serif;
 
-// * {
-//   box-sizing: border-box;
-//   // height: 100vh;
-//   margin: 0;
-//   padding: 0;
-//   font-family: $font-familly;
-// }
-
-// html {
-//   font-size: 100%;
-// }
-
 body {
   height: 100vh;
   margin: 0;
   font-family: $font-familly;
 }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
 
 
